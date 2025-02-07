@@ -1,0 +1,28 @@
+
+.dog{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.b{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 3;
+    width: 200px;
+    height: 100px;
+}
+.s{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 200px;
+}
+.v{
+    grid-column: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    width: 100px;
+    height: 300px;
+}
